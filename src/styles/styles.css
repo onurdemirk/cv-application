@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  background-color: #ebebeb;
+  font-family: "Inter", sans-serif;
+}
+
+.title,
+p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin: 40px 40px;
+  gap: 30px;
+}
+
+/* GENERAL INFORMATION DIV */
+
+.general-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 1rem;
+  margin-left: 70px;
+}
+
+.general-info > input {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 0px;
+  height: 25px;
+  background-color: #f2f0f0;
+}
+
+.general-info > label {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+/* END - GENERAL INFORMATION DIV */
+
+/* CV */
+
+.cv-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f374e;
+  height: 40%;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-header h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: 400;
+  height: 20px;
+}
+
+.cv-header-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cv-header-details p {
+  font-size: 1rem;
+  color: white;
+  font-weight: 300;
+}
+
+/* END - CV */

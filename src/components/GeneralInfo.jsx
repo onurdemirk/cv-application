@@ -4,7 +4,7 @@ export default function GeneralInfo(props) {
   return (
     <div className="general-info">
       <p className="title">Personal Details</p>
-      <label for="fullname">Full name</label>
+      <label htmlFor="fullname">Full name</label>
       <input
         type="text"
         id="fullname"
@@ -12,7 +12,7 @@ export default function GeneralInfo(props) {
         value={props.name}
         onChange={props.onChange}
       />
-      <label for="email">Email</label>
+      <label htmlFor="email">Email</label>
       <input
         type="email"
         id="email"
@@ -20,7 +20,7 @@ export default function GeneralInfo(props) {
         value={props.email}
         onChange={props.onChange}
       />
-      <label for="phone">Phone</label>
+      <label htmlFor="phone">Phone</label>
       <input
         type="text"
         id="phone"
@@ -28,7 +28,7 @@ export default function GeneralInfo(props) {
         value={props.phone}
         onChange={props.onChange}
       />
-      <label for="address">Adress</label>
+      <label htmlFor="address">Adress</label>
       <input
         type="text"
         id="address"

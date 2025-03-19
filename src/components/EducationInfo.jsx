@@ -4,6 +4,7 @@ import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { IoIosAddCircle } from "react-icons/io";
 import { FaSave } from "react-icons/fa";
 import { MdCancel } from "react-icons/md";
+import { LiaUniversitySolid } from "react-icons/lia";
 import { nanoid } from "nanoid";
 
 export default function EducationInfo(props) {
@@ -28,7 +29,7 @@ export default function EducationInfo(props) {
   return (
     <div className="education-info">
       <div className="edu-title">
-        <p>Education</p>
+      <div className="left-block-titles"><LiaUniversitySolid /><p>Education</p></div>
         {props.eduIsOpen ? (
           <IoIosArrowDropupCircle
             onClick={props.changeEduIsOpen}

@@ -31,14 +31,6 @@ export default function App() {
       startdate: "05/2020",
       enddate: "08/2024",
       location: "Dream City, USA",
-    },
-    {
-      id: nanoid(),
-      school: "Moonlight University",
-      degree: "Bachelor of Arts in Creative Media and Film",
-      startdate: "05/2020",
-      enddate: "08/2024",
-      location: "Dream City, USA",
     }
   ]);
 

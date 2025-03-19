@@ -4,6 +4,7 @@ import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { IoIosAddCircle } from "react-icons/io";
 import { FaSave } from "react-icons/fa";
 import { MdCancel } from "react-icons/md";
+import { MdWork } from "react-icons/md";
 import { nanoid } from "nanoid";
 
 export default function ExperienceInfo(props) {
@@ -29,7 +30,7 @@ export default function ExperienceInfo(props) {
   return (
     <div className="experience-info">
       <div className="exp-title">
-        <p>Experience</p>
+        <div className="left-block-titles"><MdWork /><p>Experience</p></div>
         {props.expIsOpen ? (
           <IoIosArrowDropupCircle
             onClick={props.changeExpIsOpen}

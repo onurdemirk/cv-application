@@ -1,12 +1,20 @@
-# React + Vite
+# CV Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **CV Application** built with React, allowing users to enter and edit their personal, educational, and professional experience details dynamically. The application provides a user-friendly interface to input, update, and remove data, offering a real-time preview of the CV.
 
-Currently, two official plugins are available:
+## Live Demo
+[Click here to view the live version](https://cv-application-test.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Dynamic Form Handling**: Users can add, edit, and delete education and experience sections.
+- **Real-time Preview**: Changes are instantly reflected in the CV preview.
+- **State Management**: React's `useState` is used to handle form data.
+- **Responsive Design**: The layout adapts to different screen sizes for better UX.
+- **Automatic Deployments**: The project is hosted on Netlify and updates automatically with each GitHub commit.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- **React** (Component-based UI)
+- **JavaScript (ES6+)**
+- **CSS** (Styled with Flexbox & Grid for layout)
+- **Netlify** (Deployment & Hosting)
+- **Nanoid** (For generating unique IDs)

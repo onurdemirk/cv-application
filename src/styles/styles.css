@@ -125,13 +125,18 @@ p {
 
 /* END - EDUCATION DIV */
 
-/* CV */
+/* CV HEADER */
+
+.cv-section {
+  display: flex;
+  flex-direction: column;
+}
 
 .cv-header {
   display: flex;
   flex-direction: column;
   background-color: #0f374e;
-  height: 40%;
+  height: 130px;
   padding: 0;
   margin: 0;
 }
@@ -159,4 +164,215 @@ p {
   font-weight: 300;
 }
 
-/* END - CV */
+/* END - CV HEADER */
+
+/* CV EDUCATION */
+
+.cv-second-part {
+  margin: 0;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.cv-second-part-title {
+  margin: 30px 50px 15px 50px; 
+  padding: 8px 0;
+  background-color: #f1f3f4;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.cv-edu-details {
+  margin: 10px 50px;
+  font-size: 1rem;
+}
+
+.cv-edu-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  margin-bottom: 25px;
+  align-items: start;  
+}
+
+.cv-edu-date {
+  font-weight: 400;
+  color: #555;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px; 
+}
+
+.cv-edu-date p {
+  margin: 0;
+  font-size: 1rem; 
+  line-height: 1.4;
+  color: #666;
+}
+
+.cv-edu-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cv-edu-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.cv-edu-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .cv-edu-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+/* END - CV EDUCATION */
+
+/* CV EXPERIENCE */
+
+.cv-exp-details {
+  margin: 10px 50px;
+  font-size: 1rem;
+}
+
+.cv-exp-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  margin-bottom: 25px;
+  align-items: start;
+}
+
+.cv-exp-date {
+  font-weight: 400;
+  color: #555;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cv-exp-date p {
+  margin: 0;
+  font-size: 1rem; 
+  line-height: 1.4;
+  color: #666;
+}
+
+.cv-exp-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cv-exp-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.position {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+.description {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .cv-exp-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .cv-exp-date {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+}
+
+/* END - CV EXPERIENCE */
+
+/* EXPERIENCE DIV */
+
+.experience-info {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 1rem;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+
+.exp-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  font-weight: 500;
+  height: 50px;
+}
+
+.add-exp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-family: "Inter", sans-serif;
+  margin-top: 10px;
+}
+
+.add-exp-form > input {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 0px;
+  height: 25px;
+  background-color: #f2f0f0;
+}
+
+.add-exp-form .icons {
+  width: 25px;
+  height: auto;
+}
+
+.add-exp-form .buttons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.addexp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.addexp-button > * {
+  width: 30px;
+  height: auto;
+}
+
+/* END -  EXPERIENCE DIV */
